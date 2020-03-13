@@ -56,6 +56,7 @@ public class UserResource {
 			usermap.put(1, user);
 			List list = new ArrayList();
 			list.add(usermap);
+			list.add("Madhan");
 		}
 		//Irfan end here
 		
