@@ -59,9 +59,6 @@ public class UserResource {
 			list.add("irfan");
 			list.add("Madhan");
 
-			
-			list.add("Madhan Kumar Chiluka");
-
 		}
 		//Irfan end here
 		
