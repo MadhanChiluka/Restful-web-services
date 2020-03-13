@@ -58,11 +58,9 @@ public class UserResource {
 			list.add(usermap);
 			list.add("irfan");
 			list.add("Madhan");
-
-			
 			list.add("Madhan Kumar Chiluka");
+			list.add("Madhan Kumar");
 
-		}
 		//Irfan end here
 		
 		//Madhan Start here 
