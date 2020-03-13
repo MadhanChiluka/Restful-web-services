@@ -22,7 +22,7 @@ public class User {
 	@GeneratedValue
 	private Integer id;
 	
-	@Size(min=2, message="Name should have atleast 2 characters")
+	//@Size(min=2, message="Name should have atleast 2 characters")
 	@ApiModelProperty(notes="Name should have atleast 2 characters")
 	private String name;
 	
