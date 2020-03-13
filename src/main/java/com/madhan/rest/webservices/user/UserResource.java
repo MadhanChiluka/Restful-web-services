@@ -4,6 +4,7 @@ import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.methodOn;
 
 import java.net.URI;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
@@ -53,6 +54,8 @@ public class UserResource {
 		if(user.getName().equalsIgnoreCase(USER_NAME)) {
 			HashMap<Integer, User> usermap = new HashMap<Integer, User>();
 			usermap.put(1, user);
+			List list = new ArrayList();
+			list.add(usermap);
 		}
 		//Irfan end here
 		Resource<User> resource = new Resource<User>(user);
