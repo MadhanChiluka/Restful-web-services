@@ -55,6 +55,13 @@ public class UserResource {
 			usermap.put(1, user);
 		}
 		//Irfan end here
+		
+		//Madhan Start here 
+		if(user.getName().contentEquals("Madhan")) {
+			user.setName("Madhan Chiluka");
+		}
+		//Madhan Ends here
+		
 		Resource<User> resource = new Resource<User>(user);
 		ControllerLinkBuilder linkTo = linkTo(methodOn(this.getClass()).retrieveAllUsers());
 		resource.add(linkTo.withRel("all-users"));
