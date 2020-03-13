@@ -61,7 +61,7 @@ public class UserResource {
 		
 		//Madhan Start here 
 		if(user.getName().contentEquals("Madhan")) {
-			user.setName("Madhan Chiluka");
+			user.setName("Madhan Kumar Chiluka");
 		}
 		//Madhan Ends here
 		
